@@ -1,0 +1,159 @@
+@charset "Utf-8";
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+    background-color: rgb(218, 224, 238);
+    }
+
+/**Header*/
+
+.page-header{
+    width: 100%;
+    background-color: rgb(90, 133, 226);
+    text-align: center;
+    padding: 15px;
+    position: fixed;
+    z-index: 1;
+}
+
+.logo, .page-menu{
+    padding: 10px;
+}
+
+.logo h1{
+    color: rgb(14, 1, 131);
+    font-size: 2,5em;
+}
+
+.logo span{
+    color: white;
+}
+
+.page-menu a{
+    text-decoration: none;
+    color: white;
+    padding: 8px 12px;
+}
+
+.page-menu a:hover{
+    background: white;
+    color: royalblue;
+}
+
+
+/**--------------Conteudo Principal*/
+
+
+#page-main{
+    width: 620px;
+    background-color: white;
+    margin: 0 auto;
+    padding-top: 15px;
+    position: relative;
+    top: 130px;
+    z-index: 0;
+}
+
+.post-area{
+    width: 620px;
+    margin: 0 auto;
+    float: left;
+}
+
+.post{
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.post h2{
+    color: royalblue;
+    margin-top: 0px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+.post h3{
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+    padding: 15px;
+
+}
+
+.post table{
+    padding: 5px 10px;
+    border-collapse: separate;
+    border-spacing: 5px;
+    width: 400px;
+    text-align: center;
+
+}
+
+.post span{
+    font-size: 0.8em;
+    border-bottom: 1px solid #f4f4f4;
+    padding-bottom: 10px;
+    display: block;
+}
+
+.post img{
+    padding: 10px 10 px;
+    width: 580px;
+    
+}
+
+.post .description{
+    padding-top: 10px;
+    font-weight: 550;
+}
+
+.post a{
+    text-decoration: none;
+    color: white;
+}
+
+.post a:hover{
+    text-decoration: underline;
+}
+
+/**Rodapé Principal*/
+
+.clear {
+    clear: both;
+}
+
+.page-footer {
+    background-color: rgb(184, 17, 235);
+    width: 620px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 15px 0;
+    position: relative;
+    top: 130px;
+
+}
+
+.card {
+    display: inline-block;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 40%;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  .container {
+    padding: 2px 16px;
+  }
+
+  
+  

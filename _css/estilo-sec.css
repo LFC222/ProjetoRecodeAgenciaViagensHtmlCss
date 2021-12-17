@@ -1,0 +1,301 @@
+@charset "Utf-8";
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+    background-color: rgb(218, 224, 238);
+    }
+
+/**Header*/
+
+.page-header{
+    width: 100%;
+    background-color: rgb(90, 133, 226);
+    text-align: center;
+    padding: 15px;
+    position: fixed;
+    z-index: 1;
+}
+
+.logo, .page-menu{
+    padding: 10px;
+}
+
+.logo h1{
+    color: rgb(14, 1, 131);
+    font-size: 2,5em;
+
+}
+
+.logo span{
+    color: white;
+}
+
+.page-menu a{
+    text-decoration: none;
+    color: white;
+    padding: 8px 12px;
+}
+
+.page-menu a:hover{
+    background: white;
+    color: royalblue;
+}
+
+
+/**--------------Conteudo Principal*/
+
+
+#page-main{
+    width: 1500px;
+    background-color: white;
+    margin: 0 auto;
+    padding-top: 15px;
+    position: relative;
+    top: 130px;
+    z-index: 0;
+}
+
+
+.btn {
+    background-color: green;
+    color: white;     
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;  
+}
+
+.post-area{
+    width: 1500px;
+    margin: 0 auto;
+    float: left;
+}
+
+.post{
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.post h2{
+    color: royalblue;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+.post span{
+    font-size: 0.8em;
+    border-bottom: 1px solid #f4f4f4;
+    padding-bottom: 10px;
+    display: block;
+}
+
+.post table, th, td{
+    border: 1px solid white;
+    border-collapse: collapse;
+
+    text-align: left;
+    
+}
+
+.post table a{
+    
+        text-decoration: none;
+        color: black;
+        padding: 5px 0px;
+    
+}
+
+.post th, td{
+    padding: 5px 10px;
+}
+
+.post th{
+    background-color:black;
+    color: white;
+    text-align: center;
+
+}
+
+.post table tr:nth-child(odd){
+    background-color:gray;
+    color: black;
+}
+
+.post table tr:nth-child(even){
+    background-color: aliceblue;
+    color: black;
+}
+
+
+.post img{
+    width: 100px;
+    height: 50px;
+    
+}
+
+.post .description{
+    padding-top: 10px;
+    font-weight: 550;
+}
+
+.post a{
+    text-decoration: none;
+    color: white;
+}
+
+.post a:hover{
+    text-decoration: underline;
+}
+
+/**Rodapé Principal*/
+
+.clear {
+    clear: both;
+}
+
+.page-footer {
+    background-color: rgb(233, 21, 21);
+    width: 920px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 15px 0;
+    position: relative;
+    top: 130px;
+
+}
+
+
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Style inputs */
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Style the container/contact section */
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
+  }
+  
+  /* Create two columns that float next to eachother */
+  .column {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+
+  
+  .card {
+    display: inline-block;  
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+  }
+  
+  
+  
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+
+  
+  .card-2 {
+    display: inline-block;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.card-2 button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card-2 button:hover {
+  opacity: 0.7;
+}
+
+
+.page-footer {
+    background-color: rgb(233, 21, 21);
+    width: 620px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 15px 0;
+    position: relative;
+    top: 130px;
+
+}
+
+.page-header{
+    width: 100%;
+    background-color: rgb(90, 133, 226);
+    text-align: center;
+    padding: 15px;
+    position: fixed;
+    z-index: 1;
+}
